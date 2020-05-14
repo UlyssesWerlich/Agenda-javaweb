@@ -30,7 +30,7 @@
             for (Contato contato : agenda){
         %>
                 <tr>
-                    <td><a href="ContatoEdit?id=<%= contato.getId() %>">Editar</a></td>
+                    <td><a href="ContatoEdit?id=<%= contato.getId() %>"><%= contato.getId() %></a></td>
                     <td><%= contato.getNome() %></td>
                     <td><%= contato.getTelefone() %></td>
                     <td><%= contato.getEmail() %></td>
